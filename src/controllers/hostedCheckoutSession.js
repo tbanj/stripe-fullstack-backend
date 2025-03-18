@@ -21,13 +21,7 @@ function formatAmountForStripe(amount, currency) {
 
 exports.inititateOpenPaymentModal = async (req, res, next) => {
   try {
-    // console.log("inititateOpenPaymentModal body", req.body);
     var fullUrl = req.protocol + "://" + req.get("host");
-    console.log("inititateOpenPaymentModal body", fullUrl);
-    console.log(
-      "inititateOpenPaymentModal header",
-      req.headers["custom_donation"]
-    );
     const customDonation = req.headers["custom_donation"];
     const amount = customDonation ? Number(customDonation) : 0;
     // const origin = req.headers.get("origin");

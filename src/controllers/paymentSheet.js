@@ -3,7 +3,6 @@ const { stripe } = require("../config/stripe");
 
 exports.Pay = async (req, res, next) => {
   try {
-    console.log("are you here Pay now");
     const { amount } = await req.body;
     const customer = await stripe.customers.create();
     const ephemeraKey = await stripe.ephemeralKeys.create(
@@ -27,18 +26,6 @@ exports.Pay = async (req, res, next) => {
   }); */
     logger.info(`Stripe Payment Modal is Opened`);
 
-    console.log(
-      JSON.stringify(
-        {
-          paymentIntent: paymentIntent.client_secret,
-          ephemeraKey: ephemeraKey.secret,
-          customer: customer.id,
-          publishableKey: process.env.STRIPE_PUBLISHABLE_KEY,
-        },
-        null,
-        2
-      )
-    );
     res.status(201).json({
       data: {
         paymentIntent: paymentIntent.client_secret,

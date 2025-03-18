@@ -8,7 +8,6 @@ import { stripe } from "@/utils/stripe-server"; */
 exports.SessionResult = async (req, res, next) => {
   try {
     const session_id = req.query.session_id;
-    console.log("SessionResult query", req.query.session_id);
     // const session_id = new URL(req.url).searchParams.get("session_id");
 
     if (!session_id) {
