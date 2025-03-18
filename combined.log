@@ -2104,3 +2104,6 @@
 {"level":"info","message":"- - - [18/Mar/2025:15:27:16 +0000] \"GET /.netlify/functions/api/api HTTP/1.1\" 201 94 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T15:27:16.114Z"}
 {"level":"info","message":"Stripe Payment Modal is Opened","timestamp":"2025-03-18T15:27:29.668Z"}
 {"level":"info","message":"- - - [18/Mar/2025:15:27:29 +0000] \"POST /.netlify/functions/api/api/payment-sheet HTTP/1.1\" 201 323 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T15:27:29.669Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-03-18T19:12:56.214Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-18T19:13:29.693Z"}
+{"level":"info","message":"::1 - - [18/Mar/2025:19:13:29 +0000] \"GET /api HTTP/1.1\" 201 94 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-18T19:13:29.702Z"}
