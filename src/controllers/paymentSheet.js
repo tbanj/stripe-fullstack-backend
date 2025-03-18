@@ -3,6 +3,7 @@ const { stripe } = require("../config/stripe");
 
 exports.Pay = async (req, res, next) => {
   try {
+    console.log("are you here Pay now");
     const { amount } = await req.body;
     const customer = await stripe.customers.create();
     const ephemeraKey = await stripe.ephemeralKeys.create(
@@ -10,7 +11,7 @@ exports.Pay = async (req, res, next) => {
       { apiVersion: "2024-11-20.acacia" }
     );
     const paymentIntent = await stripe.paymentIntents.create({
-      amount: amount ? Math.floor(amount * 100) : 1000,
+      amount: amount ? parseInt(amount) * 100 : 1000,
       currency: "usd",
       customer: customer.id,
       automatic_payment_methods: {
@@ -26,9 +27,21 @@ exports.Pay = async (req, res, next) => {
   }); */
     logger.info(`Stripe Payment Modal is Opened`);
 
+    console.log(
+      JSON.stringify(
+        {
+          paymentIntent: paymentIntent.client_secret,
+          ephemeraKey: ephemeraKey.secret,
+          customer: customer.id,
+          publishableKey: process.env.STRIPE_PUBLISHABLE_KEY,
+        },
+        null,
+        2
+      )
+    );
     res.status(201).json({
       data: {
-        cpaymentIntent: paymentIntent.client_secret,
+        paymentIntent: paymentIntent.client_secret,
         ephemeraKey: ephemeraKey.secret,
         customer: customer.id,
         publishableKey: process.env.STRIPE_PUBLISHABLE_KEY,

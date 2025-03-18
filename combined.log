@@ -2030,3 +2030,77 @@
 {"level":"error","message":"Error: No such checkout.session: 767\n    at generateV1Error (/Users/mac/Documents/personal_project/react_native/test_for_stripe/stripe_boilerplate/stripe-fullstack-backend/node_modules/stripe/cjs/Error.js:11:20)\n    at res.toJSON.then.Error_js_1.StripeAPIError.message (/Users/mac/Documents/personal_project/react_native/test_for_stripe/stripe_boilerplate/stripe-fullstack-backend/node_modules/stripe/cjs/RequestSender.js:108:62)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-03-16T16:14:03.050Z"}
 {"level":"info","message":"::1 - - [16/Mar/2025:16:14:03 +0000] \"POST /api/stripe-results?session_id=767 HTTP/1.1\" 500 33 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-16T16:14:03.056Z"}
 {"level":"info","message":"Server is running on port 3000","timestamp":"2025-03-17T12:08:41.298Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-03-17T12:44:04.545Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-03-17T12:49:43.696Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-03-17T15:46:46.517Z"}
+{"level":"info","message":"Stripe Payment Modal is Opened","timestamp":"2025-03-17T15:48:47.403Z"}
+{"level":"info","message":"::1 - - [17/Mar/2025:15:48:47 +0000] \"POST /api/payment-sheet HTTP/1.1\" 201 324 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-17T15:48:47.408Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-03-17T15:49:28.133Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-03-17T15:51:32.297Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [17/Mar/2025:23:36:23 +0000] \"POST /api HTTP/1.1\" 404 143 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-17T23:36:23.616Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [17/Mar/2025:23:47:27 +0000] \"POST /api HTTP/1.1\" 404 143 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-17T23:47:27.937Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [17/Mar/2025:23:51:47 +0000] \"POST /api HTTP/1.1\" 404 143 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-17T23:51:47.118Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-17T23:52:50.000Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [17/Mar/2025:23:52:50 +0000] \"GET /api HTTP/1.1\" 201 94 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-17T23:52:50.024Z"}
+{"level":"info","message":"Stripe Payment Modal is Opened","timestamp":"2025-03-17T23:53:42.102Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [17/Mar/2025:23:53:42 +0000] \"POST /api/payment-sheet HTTP/1.1\" 201 324 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-17T23:53:42.104Z"}
+{"level":"info","message":"Stripe Payment Modal is Opened","timestamp":"2025-03-17T23:54:33.621Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [17/Mar/2025:23:54:33 +0000] \"POST /api/payment-sheet HTTP/1.1\" 201 324 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-17T23:54:33.623Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-17T23:55:39.207Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [17/Mar/2025:23:55:39 +0000] \"GET /api HTTP/1.1\" 201 94 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-17T23:55:39.208Z"}
+{"level":"info","message":"Stripe Payment Modal is Opened","timestamp":"2025-03-17T23:55:56.936Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [17/Mar/2025:23:55:56 +0000] \"POST /api/payment-sheet HTTP/1.1\" 201 324 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-17T23:55:56.936Z"}
+{"level":"info","message":"Stripe Payment Modal is Opened","timestamp":"2025-03-18T00:01:36.313Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:00:01:36 +0000] \"POST /api/payment-sheet HTTP/1.1\" 201 324 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T00:01:36.315Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-03-18T00:05:11.922Z"}
+{"level":"info","message":"Stripe Payment Modal is Opened","timestamp":"2025-03-18T00:05:28.193Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:00:05:28 +0000] \"POST /api/payment-sheet HTTP/1.1\" 201 323 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T00:05:28.203Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-18T00:06:16.604Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:00:06:16 +0000] \"GET /api HTTP/1.1\" 201 94 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T00:06:16.609Z"}
+{"level":"info","message":"Stripe Payment Modal is Opened","timestamp":"2025-03-18T00:09:46.101Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:00:09:46 +0000] \"POST /api/payment-sheet HTTP/1.1\" 201 323 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T00:09:46.103Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-03-18T00:16:32.355Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-18T00:17:16.832Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:00:17:16 +0000] \"GET /api HTTP/1.1\" 201 94 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T00:17:16.836Z"}
+{"level":"info","message":"Stripe Payment Modal is Opened","timestamp":"2025-03-18T00:17:40.650Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:00:17:40 +0000] \"POST /api/payment-sheet HTTP/1.1\" 201 323 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T00:17:40.652Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-18T00:18:47.229Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:00:18:47 +0000] \"GET /api HTTP/1.1\" 201 94 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T00:18:47.230Z"}
+{"level":"info","message":"Stripe Payment Modal is Opened","timestamp":"2025-03-18T00:19:17.938Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:00:19:17 +0000] \"POST /api/payment-sheet HTTP/1.1\" 201 323 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T00:19:17.942Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-18T03:28:59.471Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:03:28:59 +0000] \"GET /api HTTP/1.1\" 201 94 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T03:28:59.477Z"}
+{"level":"info","message":"Stripe Payment Modal is Opened","timestamp":"2025-03-18T03:30:32.839Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:03:30:32 +0000] \"POST /api/payment-sheet HTTP/1.1\" 201 323 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T03:30:32.840Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-18T03:33:10.429Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:03:33:10 +0000] \"GET /api HTTP/1.1\" 201 94 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T03:33:10.431Z"}
+{"level":"info","message":"Stripe Payment Modal is Opened","timestamp":"2025-03-18T03:33:26.094Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:03:33:26 +0000] \"POST /api/payment-sheet HTTP/1.1\" 201 323 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T03:33:26.097Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-18T06:29:28.747Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:06:29:28 +0000] \"GET /api HTTP/1.1\" 201 94 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T06:29:28.758Z"}
+{"level":"info","message":"Stripe Payment Modal is Opened","timestamp":"2025-03-18T06:29:38.544Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:06:29:38 +0000] \"POST /api/payment-sheet HTTP/1.1\" 201 323 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T06:29:38.546Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-18T06:31:49.742Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:06:31:49 +0000] \"GET /api HTTP/1.1\" 201 94 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T06:31:49.745Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-18T06:37:22.277Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:06:37:22 +0000] \"GET /api HTTP/1.1\" 201 94 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T06:37:22.279Z"}
+{"level":"info","message":"Stripe Payment Modal is Opened","timestamp":"2025-03-18T06:37:34.462Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:06:37:34 +0000] \"POST /api/payment-sheet HTTP/1.1\" 201 323 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T06:37:34.465Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-18T14:27:38.745Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:14:27:38 +0000] \"GET /api HTTP/1.1\" 201 94 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T14:27:38.777Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-18T14:29:14.016Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:14:29:14 +0000] \"GET /api HTTP/1.1\" 201 94 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T14:29:14.022Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-18T14:39:29.428Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:14:39:29 +0000] \"GET /api HTTP/1.1\" 201 94 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T14:39:29.437Z"}
+{"level":"info","message":"Stripe Payment Modal is Opened","timestamp":"2025-03-18T14:39:39.364Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:14:39:39 +0000] \"POST /api/payment-sheet HTTP/1.1\" 201 323 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T14:39:39.367Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-03-18T15:03:21.191Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-18T15:03:38.261Z"}
+{"level":"info","message":"::ffff:192.168.37.21 - - [18/Mar/2025:15:03:38 +0000] \"GET /api HTTP/1.1\" 201 94 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T15:03:38.266Z"}
+{"level":"info","message":"- - - [18/Mar/2025:15:05:27 +0000] \"GET /.netlify/functions/api HTTP/1.1\" 404 161 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15\"","timestamp":"2025-03-18T15:05:27.882Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-18T15:06:44.716Z"}
+{"level":"info","message":"- - - [18/Mar/2025:15:06:44 +0000] \"GET /.netlify/functions/api/api HTTP/1.1\" 201 94 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15\"","timestamp":"2025-03-18T15:06:44.721Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-18T15:27:16.100Z"}
+{"level":"info","message":"- - - [18/Mar/2025:15:27:16 +0000] \"GET /.netlify/functions/api/api HTTP/1.1\" 201 94 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T15:27:16.114Z"}
+{"level":"info","message":"Stripe Payment Modal is Opened","timestamp":"2025-03-18T15:27:29.668Z"}
+{"level":"info","message":"- - - [18/Mar/2025:15:27:29 +0000] \"POST /.netlify/functions/api/api/payment-sheet HTTP/1.1\" 201 323 \"-\" \"okhttp/4.9.2\"","timestamp":"2025-03-18T15:27:29.669Z"}
