@@ -1,9 +1,9 @@
 const serverless = require("serverless-http");
 const express = require("express");
-const majarydeAPIs = require("../src/app.js");
+const stripeFullstackAPIs = require("../src/app.js");
 const app = express();
 
-app.use("/.netlify/functions/api", majarydeAPIs);
+app.use("/.netlify/functions/api", stripeFullstackAPIs);
 // module.exports.handler = async serverless(app);
 module.exports.handler = async (event, context) => {
   // Set context callbackWaitsForEmptyEventLoop to false
