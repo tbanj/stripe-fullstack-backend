@@ -2107,3 +2107,11 @@
 {"level":"info","message":"Server is running on port 3000","timestamp":"2025-03-18T19:12:56.214Z"}
 {"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-18T19:13:29.693Z"}
 {"level":"info","message":"::1 - - [18/Mar/2025:19:13:29 +0000] \"GET /api HTTP/1.1\" 201 94 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-18T19:13:29.702Z"}
+{"level":"info","message":"Server is running on port 65302","timestamp":"2025-03-19T03:59:37.072Z"}
+{"level":"info","message":"::1 - - [19/Mar/2025:04:10:03 +0000] \"GET /api/api HTTP/1.1\" 404 146 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15\"","timestamp":"2025-03-19T04:10:03.270Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-19T04:10:12.496Z"}
+{"level":"info","message":"::1 - - [19/Mar/2025:04:10:12 +0000] \"GET /api HTTP/1.1\" 201 94 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15\"","timestamp":"2025-03-19T04:10:12.501Z"}
+{"level":"info","message":"::1 - - [19/Mar/2025:04:10:12 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3000/api\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15\"","timestamp":"2025-03-19T04:10:12.533Z"}
+{"level":"info","message":"::1 - - [19/Mar/2025:10:11:50 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"com.apple.WebKit.Networking/20620.2.4.11.6 Network/4277.81.1 macOS/15.3.2\"","timestamp":"2025-03-19T10:11:50.777Z"}
+{"level":"info","message":"::1 - - [19/Mar/2025:10:11:50 +0000] \"GET /apple-touch-icon.png HTTP/1.1\" 404 159 \"-\" \"com.apple.WebKit.Networking/20620.2.4.11.6 Network/4277.81.1 macOS/15.3.2\"","timestamp":"2025-03-19T10:11:50.786Z"}
+{"level":"info","message":"::1 - - [19/Mar/2025:10:11:50 +0000] \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 171 \"-\" \"com.apple.WebKit.Networking/20620.2.4.11.6 Network/4277.81.1 macOS/15.3.2\"","timestamp":"2025-03-19T10:11:50.790Z"}
