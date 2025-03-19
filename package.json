@@ -5,7 +5,6 @@
   "main": "api.js",
   "scripts": {
     "start": "node api/server.local.js",
-    "build": "netlify deploy --prod",
     "dev": "node api/server.local.js",
     "dev-local": "nodemon server.local.js"
   },
