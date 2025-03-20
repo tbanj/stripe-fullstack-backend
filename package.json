@@ -2,10 +2,9 @@
   "name": "stripe-fullstack-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "api.js",
+  "main": "server.local.js",
   "scripts": {
     "start": "node api/server.local.js",
-    "build": "netlify deploy --prod",
     "dev": "node api/server.local.js",
     "dev-local": "nodemon server.local.js"
   },
