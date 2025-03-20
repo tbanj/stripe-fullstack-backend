@@ -2115,3 +2115,10 @@
 {"level":"info","message":"::1 - - [19/Mar/2025:10:11:50 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"com.apple.WebKit.Networking/20620.2.4.11.6 Network/4277.81.1 macOS/15.3.2\"","timestamp":"2025-03-19T10:11:50.777Z"}
 {"level":"info","message":"::1 - - [19/Mar/2025:10:11:50 +0000] \"GET /apple-touch-icon.png HTTP/1.1\" 404 159 \"-\" \"com.apple.WebKit.Networking/20620.2.4.11.6 Network/4277.81.1 macOS/15.3.2\"","timestamp":"2025-03-19T10:11:50.786Z"}
 {"level":"info","message":"::1 - - [19/Mar/2025:10:11:50 +0000] \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 171 \"-\" \"com.apple.WebKit.Networking/20620.2.4.11.6 Network/4277.81.1 macOS/15.3.2\"","timestamp":"2025-03-19T10:11:50.790Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-03-20T23:21:06.475Z"}
+{"level":"info","message":"Server is running at port 3000","timestamp":"2025-03-20T23:21:25.352Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-20T23:22:52.384Z"}
+{"level":"info","message":"- - - [20/Mar/2025:23:22:52 +0000] \"GET /.netlify/functions/api/api HTTP/1.1\" 201 94 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15\"","timestamp":"2025-03-20T23:22:52.388Z"}
+{"level":"info","message":"- - - [20/Mar/2025:23:22:53 +0000] \"GET /.netlify/functions/api HTTP/1.1\" 404 161 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15\"","timestamp":"2025-03-20T23:22:53.920Z"}
+{"level":"info","message":"Root stripe fullstack is called","timestamp":"2025-03-20T23:23:08.508Z"}
+{"level":"info","message":"- - - [20/Mar/2025:23:23:08 +0000] \"GET /.netlify/functions/api/api HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15\"","timestamp":"2025-03-20T23:23:08.509Z"}
